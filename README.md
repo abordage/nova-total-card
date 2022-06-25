@@ -2,11 +2,11 @@
 
 A Laravel Nova card that displays the total number of records for a specific model, or the number of records that matches a condition.
 
-[//]: # (<p style="text-align: center;" align="center">&#41;)
+<p style="text-align: center;" align="center">
 
-[//]: # (    <img alt="Laravel Last-Modified" src="https://github.com/abordage/nova-total-card/blob/master/docs/images/abordage-nova-total-card-screenshot.png?raw=true">)
+<img alt="Laravel Last-Modified" src="https://github.com/abordage/nova-total-card/blob/master/docs/images/abordage-nova-total-card-screenshot.png?raw=true">
 
-[//]: # (</p>)
+</p>
 
 [//]: # ()
 [//]: # ()
