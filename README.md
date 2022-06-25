@@ -86,7 +86,7 @@ class Main extends Dashboard
             new TotalCard(\App\Models\User::class, 'All users',  now()->addHour()),
             
             /* with condition */
-            new TotalCard(\App\Models\User::where('is_active', 1), 'Active users',  now()->addHour()),
+            new TotalCard(\App\Models\User::where('is_active', 1), 'Active users'),
         ];
     }
 }
