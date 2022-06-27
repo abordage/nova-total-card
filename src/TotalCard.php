@@ -26,10 +26,12 @@ class TotalCard extends Card
      */
     public function __construct($model, ?string $title = null, $cacheFor = null, ?string $component = null)
     {
-        $this->builder = $this->getBuilder($model);
-        $this->cacheFor = $this->getCacheFor($cacheFor);
-        $this->total = $this->getTotal();
-        $this->title = $title ?? $this->getTitle();
+        if (!request()->is('nova-api/metrics/*')) {
+            $this->builder = $this->getBuilder($model);
+            $this->cacheFor = $this->getCacheFor($cacheFor);
+            $this->total = $this->getTotal();
+            $this->title = $title ?? $this->getTitle();
+        }
 
         parent::__construct($component);
     }
@@ -63,7 +65,6 @@ class TotalCard extends Card
     /**
      * @param mixed $cacheFor
      * @return DateInterval|null
-     * @throws Exception
      */
     private function getCacheFor($cacheFor): ?DateInterval
     {
