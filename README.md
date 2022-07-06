@@ -74,6 +74,23 @@ class Main extends Dashboard
 }
 ```
 
+You can set the size of the card using the methods `width` and `height`:
+
+```php
+public function cards(): array
+{
+    $cards = [
+        (new TotalCard(\App\Models\User::class))->height('dynamic'),
+        (new TotalCard(\App\Models\User::class))->height('dynamic')->width('2/3'),
+    ];
+}
+```
+
+<p style="text-align: center;" align="center">
+
+<img alt="Laravel Nova Total Card" src="https://github.com/abordage/nova-total-card/blob/master/docs/images/abordage-nova-total-card-screenshot-2.png?raw=true">
+</p>
+
 ## Feedback
 If you have any feedback, comments or suggestions, please feel free to open an issue within this repository.
 
