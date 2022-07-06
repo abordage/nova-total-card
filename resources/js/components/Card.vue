@@ -1,5 +1,5 @@
 <template>
-    <card class="flex flex-col items-center justify-center">
+    <card class="flex flex-col items-center justify-center py-6">
         <p v-if="card.error !== null" class="font-semibold text-red-500 text-xs text-left px-6">{{ card.error }}</p>
         <h2 v-else class="text-90 text-xl md:text-2xl">
             <span class="font-semibold">{{ card.title }}:</span> {{ formattedTotal }}

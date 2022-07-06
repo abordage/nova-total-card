@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Laravel\Nova\Card;
+use Laravel\Nova\Nova;
 
 class TotalCard extends Card
 {
@@ -117,7 +118,7 @@ class TotalCard extends Card
             return null;
         }
 
-        return Str::plural(Str::title(Str::snake(class_basename($this->builder->getModel()->getTable()), ' ')));
+        return Nova::humanize(class_basename($this->builder->getModel()));
     }
 
     /**
