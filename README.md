@@ -97,7 +97,7 @@ If you have any feedback, comments or suggestions, please feel free to open an i
 ## Credits
 
 - [Pavel Bychko](https://github.com/abordage)
-- [All Contributors](../../contributors)
+- [All Contributors](https://github.com/abordage/nova-total-card/graphs/contributors)
 
 ## Thanks to
 The original idea comes from the [total-records](https://github.com/techouse/total-records), so many thanks to its author and contributors!
