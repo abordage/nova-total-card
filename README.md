@@ -1,3 +1,5 @@
+<!--suppress HtmlDeprecatedAttribute -->
+
 # Nova Total Card
 
 A Laravel Nova card that displays the total number of records for a specific model, or the number of records that matches a condition.
@@ -33,7 +35,7 @@ A Laravel Nova card that displays the total number of records for a specific mod
 </p>
 
 ## Requirements
-- PHP 7.4 or higher
+- PHP 7.4 - 8.2
 - Nova 4
 
 ## Installation
