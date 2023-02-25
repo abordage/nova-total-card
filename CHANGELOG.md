@@ -2,6 +2,20 @@
 
 All notable changes to `nova-total-card` will be documented in this file.
 
+## 0.2.0 - 2023-02-25
+
+### What's Changed
+
+- Laravel 10 support by @abordage in https://github.com/abordage/nova-total-card/pull/13
+- Update lychee-action config by @abordage in https://github.com/abordage/nova-total-card/pull/7
+- Bump lycheeverse/lychee-action from 1.5.0 to 1.5.1 by @dependabot in https://github.com/abordage/nova-total-card/pull/2
+- Bump dependabot/fetch-metadata from 1.3.3 to 1.3.4 by @dependabot in https://github.com/abordage/nova-total-card/pull/8
+- Bump lycheeverse/lychee-action from 1.5.1 to 1.5.2 by @dependabot in https://github.com/abordage/nova-total-card/pull/9
+- Bump lycheeverse/lychee-action from 1.5.2 to 1.5.4 by @dependabot in https://github.com/abordage/nova-total-card/pull/11
+- Bump dependabot/fetch-metadata from 1.3.5 to 1.3.6 by @dependabot in https://github.com/abordage/nova-total-card/pull/12
+
+**Full Changelog**: https://github.com/abordage/nova-total-card/compare/0.1.2...0.2.0
+
 ## 0.1.2 - 2022-07-06
 
 ### What's Changed
