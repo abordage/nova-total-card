@@ -13,3 +13,4 @@ npm-debug.log
 phpstan.neon
 phpunit.xml
 testbench.yaml
+/auth.json
