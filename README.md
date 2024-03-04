@@ -2,11 +2,11 @@
 
 # Nova Total Card
 
-A Laravel Nova card that displays the total number of records for a specific model, or the number of records that matches a condition.
+A Laravel Nova card that displays the total number of records for a model or the number of records matching a condition.
 
 <p style="text-align: center;" align="center">
 
-<img alt="Laravel Nova Total Card" src="https://github.com/abordage/nova-total-card/blob/master/docs/images/abordage-nova-total-card-screenshot.png?raw=true">
+<img alt="Laravel Nova Total Card" src="https://github.com/abordage/nova-total-card/blob/master/docs/images/abordage-nova-total-card-screenshot-2.png?raw=true">
 </p>
 
 
@@ -35,7 +35,8 @@ A Laravel Nova card that displays the total number of records for a specific mod
 </p>
 
 ## Requirements
-- PHP 7.4 - 8.2
+- PHP 7.4 - 8.3
+- Laravel 8.x - 11.x
 - Nova 4
 
 ## Installation
@@ -61,6 +62,7 @@ class Main extends Dashboard
     public function cards(): array
     {
         $cards = [
+            /* simple */
             new TotalCard(\App\Models\User::class),
             
             /* with custom title */
@@ -87,11 +89,6 @@ public function cards(): array
     ];
 }
 ```
-
-<p style="text-align: center;" align="center">
-
-<img alt="Laravel Nova Total Card" src="https://github.com/abordage/nova-total-card/blob/master/docs/images/abordage-nova-total-card-screenshot-2.png?raw=true">
-</p>
 
 ## Feedback
 If you have any feedback, comments or suggestions, please feel free to open an issue within this repository.
