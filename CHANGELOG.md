@@ -2,6 +2,14 @@
 
 All notable changes to `nova-total-card` will be documented in this file.
 
+## 1.0.0 - 2025-01-11
+
+### What's Changed
+
+* Nova 5 by @abordage in https://github.com/abordage/nova-total-card/pull/33
+
+**Full Changelog**: https://github.com/abordage/nova-total-card/compare/0.2.1...1.0.0
+
 ## 0.2.1 - 2024-03-23
 
 ### What's Changed
